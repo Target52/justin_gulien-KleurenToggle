@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice Event Handlers</title>
+    <script defer type="text/javascript" src="js/scripts.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="nav-main">
+        <!-- <a href="#" class="burger-nav"><img src="img/menu.png"></a> -->
+        <div class="burger-nav"><img onclick="toggleNav()" src="img/menu.png"></div>
+
+    </nav>
+    <aside class="colors-bar">
+        <ul>
+            <li><span onclick="toggleColor('#f1f1f1')" class="home">Home</span></li>
+            <li><span onclick="toggleColor('red')" class="red">Red</span></li>
+            <li><span onclick="toggleColor('orange')" class="orange">Orange</span></li>
+            <li><span onclick="toggleColor('purple')" class="purple">Purple</span></li>
+            <li><span onclick="toggleColor('green')" class="green">Green</span></li>
+        </ul>
+    </aside>
+
+</body>
+
+</html>
